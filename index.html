@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        border: 3px solid black;
+        width: 125px;
+        height: 45px;
+        text-overflow: nowrap;
+        white-space: nowrap;
+        box-shadow: 8px 8px yellow;
+      }
+      .pr {
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .p1 {
+        border: 2px solid black;
+        width: 150px;
+        background-color: blanchedalmond;
+        visibility: hidden;
+      }
+      div:hover + .p1 {
+        visibility: visible;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p class="pr">
+        "Dhoni" redirects here. For other uses, see Dhoni (disambiguation).
+        Honorary Lieutenant colonel Mahendra Singh Dhoni Dhoni in 2023 Personal
+        details Born 7 July 1981 (age 43) Ranchi, Bihar (present-day Jharkhand),
+        India Height 5 ft 9 in (175 cm)[1] Spouse Sakshi Dhoni Awards.
+      </p>
+    </div>
+    <p class="p1">
+      "Dhoni" redirects here. For other uses, see Dhoni (disambiguation).
+      Honorary Lieutenant colonel Mahendra Singh Dhoni Dhoni in 2023 Personal
+      details Born 7 July 1981 (age 43) Ranchi, Bihar (present-day Jharkhand),
+      India Height 5 ft 9 in (175 cm)[1] Spouse Sakshi Dhoni Awards.
+    </p>
+  </body>
+</html>
